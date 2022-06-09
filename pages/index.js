@@ -204,7 +204,7 @@ export default function Mint() {
 
                                     <div className="flex items-center space-x-3">
                                         <p>
-                                           {_price/1000000000000000000}
+                                           {_price/1000000000000000000*mintAmount}
                         {' '}
                         Matic
                                         </p>{' '}    
