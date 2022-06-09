@@ -204,7 +204,9 @@ export default function Mint() {
 
                                     <div className="flex items-center space-x-3">
                                         <p>
-                                           1
+                                           {Number.parseFloat(config.price * mintAmount).toFixed(
+                          2
+                        )}{' '}
                         {' '}
                         Matic
                                         </p>{' '}    
