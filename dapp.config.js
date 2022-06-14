@@ -7,7 +7,7 @@ const config = {
     contractAddress: '0x8780b96483676aa8E941f4aacF9d9a3b7629545e',
     maxMintAmount: 50,
     presaleMaxMintAmount: 50,
-    price: 170,
+    price: 230,
   }
 
 const onboardOptions = {
